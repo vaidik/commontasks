@@ -13,12 +13,12 @@ It is extremely easy to start using these commands with your Firefox 16 stable
 or latest Nightly builds.
 
 Follow these simple steps to start using these commands:
-1. Clone this repository using the `git clone` command.
-2. Start Firefox.
-3. In a new tab, open `about:config`.
-4. Set the value of `devtools.commands.dir` preference to the path of the repository
-   on your machine.
-5. Restart Firefox.
+
+1. Clone this repository using the `git clone` command.  
+2. Start Firefox.  
+3. In a new tab, open `about:config`.  
+4. Set the value of `devtools.commands.dir` preference to the path of the repository on your machine.  
+5. Restart Firefox.  
 
 That's it! You are good to go.
 
