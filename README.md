@@ -1,7 +1,7 @@
-# CommonTask
+# CommonTasks
 
 ## About
-CommonTask is an attempt to create some everyday utility commands for the new
+CommonTasks is an attempt to create some everyday utility commands for the new
 Firefox Graphical Command Line Interface (GCLI).
 
 The inspiration behind this project is Vimperator, the add-on that creates a
@@ -23,5 +23,5 @@ Follow these simple steps to start using these commands:
 That's it! You are good to go.
 
 ## License
-CommonTask was created by [Vaidik Kapoor](http://vaidikkapoor.info). It is
+CommonTasks was created by [Vaidik Kapoor](http://vaidikkapoor.info). It is
 released under Mozilla Public License Version 1.1, see LICENSE.
