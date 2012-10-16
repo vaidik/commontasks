@@ -1,0 +1,41 @@
+[
+  {
+    name: 'open',
+    description: 'Open webpage.',
+  },
+  {
+    name: 'open this',
+    description: 'Open webpage in the current tab.',
+    params: [
+      {
+        name: 'url',
+        type: 'string',
+        description: 'URL of the webpage you want to open.',
+      }
+    ],
+    exec: function(args, context) {
+      openUILink(args.url);
+    }
+  },
+  {
+    name: 'open tab',
+    description: 'Open webpage in a new tab.',
+    params: [
+      {
+        name: 'url',
+        type: 'string',
+        description: 'URL of the webpage you want to open.',
+      }
+    ],
+    exec: function(args, context) {
+      gBrowser.selectedTab = gBrowser.addTab(args.url);
+    }
+  },
+  {
+    name: 'close',
+    description: 'Close the current tab.',
+    exec: function(args, context) {
+      gBrowser.removeCurrentTab();
+    }
+  }
+]
